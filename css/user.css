@@ -1,0 +1,49 @@
+html,body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: #F0F2F4;
+    /*#F0F2F4;*/
+}
+
+a:hover {
+    color: #3273dc;
+}
+
+.container{
+
+}
+
+.wrapper{
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.profile{
+    margin-bottom: 30px;
+}
+
+.students{
+    margin-bottom: 15px;
+}
+
+.assignment{
+    margin-top: 40px;
+}
+
+.module{
+    margin: 20px 0px;
+    margin-bottom: 40px;
+}
+
+.module-list{
+    margin-bottom: 15px;
+}
+
+.module-list a:hover {
+    text-decoration: underline;
+}
+
+.is-completed{
+    color: #1ca64c;
+    font-weight: bold;
+}
