@@ -36,4 +36,15 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function getPhotoURLAttribute()
+    {
+        return asset('img/avatar/'.$this->photo);
+    }
+
+    public function peserta()
+    {
+        return $this->hasMany('App\Peserta', 'id_user', 'id');
+    }
+
 }
